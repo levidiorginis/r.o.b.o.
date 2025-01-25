@@ -33,6 +33,7 @@ client/.parcel-cache/
 *.tmp
 *.cache
 *.lock
+*lock.json
 
 # Arquivos do sistema operacional
 .DS_Store
