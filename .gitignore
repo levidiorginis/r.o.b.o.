@@ -1,0 +1,42 @@
+# Geral
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Diretório do server (Solução .NET com arquitetura DDD)
+server/**/*.suo
+server/**/*.user
+server/**/*.sln.docstates
+server/**/*.vs/
+server/**/bin/
+server/**/obj/
+server/**/TestResults/
+server/**/.vscode/
+server/**/.idea/
+server/**/.vs/
+server/**/appsettings.*.json
+server/**/*.db
+server/**/Migrations/
+
+# Diretório do client (React TypeScript)
+client/node_modules/
+client/build/
+client/.env
+client/coverage/
+client/.parcel-cache/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.cache
+*.lock
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de controle do Git
+.git/
